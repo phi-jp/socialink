@@ -42,6 +42,7 @@ app
     this.open = function(e) {
       var url = Socialink.link(e.item.key, 'https://runstant.com', {
         text: 'Socialink Test',
+        hashtags: 'js,socialink'
       });
       window.open(url, 'share', 'width=640, height=480');
     };

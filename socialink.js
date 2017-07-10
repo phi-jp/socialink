@@ -15,6 +15,7 @@
     options = defaults(options || {}, {
       url: url,
       text: '',
+      hashtags: '',
     });
     for (var key in options) {
       options[key] = euc(options[key]);
@@ -27,7 +28,7 @@
     twitter: {
       name: 'Twitter',
       color: '#55acee',
-      template: 'https://twitter.com/intent/tweet?text={text}&hashtags=runstant&url={url}',
+      template: 'https://twitter.com/intent/tweet?text={text}&hashtags={hashtags}&url={url}',
       icon: 'twitter',
     },
     facebook: {

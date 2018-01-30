@@ -54,9 +54,11 @@
       color: '#008fde',
       template: 'http://b.hatena.ne.jp/entry/{url}',
     },
-    // line: {
-    //   color: '#00c300',
-    // },
+    line: {
+      name: 'LINE',
+      color: '#00c300',
+      template: 'http://line.me/R/msg/text/?{text}%0D%0A{url},'
+    },
     // marcle: {
 
     // },

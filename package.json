@@ -1,6 +1,6 @@
 {
   "name": "socialink",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "social link",
   "main": "index.js",
   "scripts": {

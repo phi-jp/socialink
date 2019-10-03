@@ -44,7 +44,7 @@
       icon: 'google-plus',
     },
     pocket: {
-      name: 'Pcoket',
+      name: 'Pocket',
       color: '#ED4055',
       template: 'https://getpocket.com/edit?url={url}',
       icon: 'get-pocket',
@@ -57,7 +57,7 @@
     line: {
       name: 'LINE',
       color: '#00c300',
-      template: 'http://line.me/R/msg/text/?{text}%0D%0A{url},'
+      template: 'https://line.me/R/msg/text/?{text}%0D%0A{url}'
     },
     // marcle: {
 
